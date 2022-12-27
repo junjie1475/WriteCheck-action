@@ -1,5 +1,3 @@
-ls
-
 # install proselint
 sudo apt-get -y update
 sudo add-apt-repository -y universe
