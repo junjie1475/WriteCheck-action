@@ -7,5 +7,5 @@ sudo apt-get install findutils
 cd "$GITHUB_WORKSPACE" || exit 1
 find . -name '*.md' | xargs proselint
 find . -name '*.md'
-proselint typo.md
+proselint -h
 ls
